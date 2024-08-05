@@ -1,6 +1,6 @@
-const core = import("@actions/core");
-const github = import("@actions/github");
-const exec = import("@actions/exec");
+import * as core from "@actions/core";
+import * as github from "@actions/github";
+import * as exec from "@actions/exec";
 
 function run() {
   core.notice("Hello from my custom javascript action!");
